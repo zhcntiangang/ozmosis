@@ -1,0 +1,35 @@
+文件结构图如下
+
+
+
+/
+	->OzmosisMakeTool  ozmosis 工具 efi 分区加载工具，ffs 文件转换工具 变频ssd 生成工具等等 
+
+
+	->Temp 临时文件存放位置
+
+
+	->BiosFile bios存放位置、对应efi文件位置
+
+		->MainBoardBiosProfiles bios配置 其中包含 windows 与 mac
+
+		->主板型号
+
+			->ShareFiles 包含共用的配置  机型文件 oz核心文件等不变的文件
+
+			->官方bios
+
+			->OzBios
+
+				->History 以前的bios文件	
+
+				->Macos 系统版本 包含改版后的bios文件、对应EFi文件、EFi分区备份、对应的驱动文件
+
+					-> 系统对应的EFI
+
+						->APPLE默认
+
+						->Oz 对应bios的ssdt 变频文件 声卡等驱动
+
+
+
