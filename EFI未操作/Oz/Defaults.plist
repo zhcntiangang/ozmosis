@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Defaults:1F8E0C02-58A9-4E34-AE22-2B63745FA101</key>
+	<dict>
+		<key>AAPL,ig-platform-id</key>
+		<integer>220332035</integer>
+		<key>AndroidDiskOptionTemplate</key>
+		<string>initrd=$initfs root=UUID=$uuid androidboot.hardware=android_x86 ro SRC=$path</string>
+		<key>AndroidDiskTemplate</key>
+		<string>$label</string>
+		<key>BootEntryTemplate</key>
+		<string>$label</string>
+		<key>DarwinCoreStorageTemplate</key>
+		<string>$label</string>
+		<key>DarwinDiskTemplate</key>
+		<string>$label</string>
+		<key>DarwinRecoveryDiskTemplate</key>
+		<string>$label ($platform.$major.$minor)</string>
+		<key>DisableAtiInjection</key>
+		<true/>
+		<key>DisableBootEntriesFilter</key>
+		<true/>
+		<key>DisableIntelInjection</key>
+		<false/>
+		<key>DisableNvidiaInjection</key>
+		<true/>
+		<key>LinuxDiskOptionTemplate</key>
+		<string>initrd=$initfs root=UUID=$uuid ro</string>
+		<key>LinuxDiskTemplate</key>
+		<string>Linux $build</string>
+		<key>LinuxRescueDiskTemplate</key>
+		<string>$label Rescue</string>
+		<key>LinuxRescueOptionTemplate</key>
+		<string>initrd=$initramfs root=$root ro quiet</string>
+		<key>TimeOut</key>
+		<integer>0</integer>
+		<key>UserInterface</key>
+		<false/>
+	</dict>
+	<key>Defaults:4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+	<dict>
+		<key>BaseBoardSerial</key>
+		<string>F5K714401QXF5041M</string>
+		<key>BiosDate</key>
+		<string>04/11/2018</string>
+		<key>BiosVersion</key>
+		<string>MP61.88Z.0124.B00.1804111223</string>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>Pro-Enclosure</string>
+		<key>ChassisType</key>
+		<integer>2</integer>
+		<key>EnclosureType</key>
+		<integer>11</integer>
+		<key>FirmwareFeatures</key>
+		<integer>3893354807</integer>
+		<key>FirmwareFeaturesMask</key>
+		<integer>4280287039</integer>
+		<key>FirmwareVendor</key>
+		<string>Apple Inc.</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>PlatformFeature</key>
+		<integer>4</integer>
+		<key>ProductFamily</key>
+		<string>MacPro</string>
+		<key>ProductId</key>
+		<string>Mac-F60DEB81FF30ACF6</string>
+		<key>ProductName</key>
+		<string>MacPro6,1</string>
+		<key>SystemSerial</key>
+		<string>F5KTK22OF9VM</string>
+		<key>SystemVersion</key>
+		<string>1.0</string>
+	</dict>
+	<key>Defaults:7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+	<dict>
+		<key>boot-args</key>
+		<string>dart=0 -cdfon -norelocate uia_exclude=HS02;HS07;USR1;USR2;SSP2 kext-dev-mode=1 alcid=11</string>
+		<key>csr-active-config</key>
+		<integer>1023</integer>
+	</dict>
+	<key>Timestamp</key>
+	<integer>0</integer>
+	<key>Version</key>
+	<string>1.0.1</string>
+</dict>
+</plist>

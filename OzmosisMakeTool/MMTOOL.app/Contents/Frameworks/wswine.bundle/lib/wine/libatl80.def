@@ -1,0 +1,46 @@
+; File generated automatically from ./dlls/atl80/atl80.spec; do not edit!
+
+LIBRARY atl80.dll
+
+EXPORTS
+  AtlAdvise@16=atl100.AtlAdvise @10
+  AtlUnadvise@12=atl100.AtlUnadvise @11
+  AtlFreeMarshalStream@4=atl100.AtlFreeMarshalStream @12
+  AtlMarshalPtrInProc@12=atl100.AtlMarshalPtrInProc @13
+  AtlUnmarshalPtr@12=atl100.AtlUnmarshalPtr @14
+  AtlComModuleGetClassObject@16=atl100.AtlComModuleGetClassObject @15
+  AtlComModuleRegisterClassObjects@12=atl100.AtlComModuleRegisterClassObjects @17
+  AtlComModuleRegisterServer@12 @18
+  AtlRegisterTypeLib@8 @19
+  AtlComModuleUnregisterServer@12=atl100.AtlComModuleUnregisterServer @22
+  AtlUpdateRegistryFromResourceD@20=atl100.AtlUpdateRegistryFromResourceD @23
+  AtlWaitWithMessageLoop@4=atl100.AtlWaitWithMessageLoop @24
+  AtlCreateTargetDC@8=atl100.AtlCreateTargetDC @26
+  AtlHiMetricToPixel@8=atl100.AtlHiMetricToPixel @27
+  AtlPixelToHiMetric@8=atl100.AtlPixelToHiMetric @28
+  AtlComPtrAssign@8=atl100.AtlComPtrAssign @30
+  AtlComQIPtrAssign@12=atl100.AtlComQIPtrAssign @31
+  AtlInternalQueryInterface@16=atl100.AtlInternalQueryInterface @32
+  AtlGetVersion@4 @34
+  AtlAxDialogBoxW@20=atl100.AtlAxDialogBoxW @35
+  AtlAxDialogBoxA@20=atl100.AtlAxDialogBoxA @36
+  AtlAxCreateDialogW@20=atl100.AtlAxCreateDialogW @37
+  AtlAxCreateDialogA@20=atl100.AtlAxCreateDialogA @38
+  AtlAxCreateControl@16=atl100.AtlAxCreateControl @39
+  AtlAxCreateControlEx@28=atl100.AtlAxCreateControlEx @40
+  AtlAxAttachControl@12=atl100.AtlAxAttachControl @41
+  AtlAxWinInit@0 @42
+  AtlWinModuleAddCreateWndData@12=atl100.AtlWinModuleAddCreateWndData @43
+  AtlWinModuleExtractCreateWndData@4=atl100.AtlWinModuleExtractCreateWndData @44
+  AtlAxGetControl@8=atl100.AtlAxGetControl @47
+  AtlAxGetHost@8=atl100.AtlAxGetHost @48
+  AtlRegisterClassCategoriesHelper@12=atl100.AtlRegisterClassCategoriesHelper @49
+  AtlIPersistStreamInit_Load@16=atl100.AtlIPersistStreamInit_Load @50
+  AtlIPersistStreamInit_Save@20=atl100.AtlIPersistStreamInit_Save @51
+  AtlIPersistPropertyBag_Load@20=atl100.AtlIPersistPropertyBag_Load @52
+  AtlGetObjectSourceInterface@20=atl100.AtlGetObjectSourceInterface @54
+  AtlLoadTypeLib@16=atl100.AtlLoadTypeLib @56
+  AtlModuleAddTermFunc@12=atl100.AtlModuleAddTermFunc @58
+  AtlCreateRegistrar@4=atl100.AtlCreateRegistrar @61
+  AtlCallTermFunc@4=atl100.AtlCallTermFunc @64
+  AtlWinModuleInit@4=atl100.AtlWinModuleInit @65

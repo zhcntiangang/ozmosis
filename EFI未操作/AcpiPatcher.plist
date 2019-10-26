@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DropTables</key>
+	<array>
+		<dict>
+			<key>Signature</key>
+			<string></string>
+			<key>TableId</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>GenerateCPUStates</key>
+	<true/>
+	<key>PatchOemTableOnly</key>
+	<true/>
+	<key>Patches</key>
+	<array>
+		<dict>
+			<key>Comment</key>
+			<string>EHC1 [to] EH01</string>
+			<key>Disabled</key>
+			<false/>
+			<key>Find</key>
+			<data>
+			RUhDMQ==
+			</data>
+			<key>Replace</key>
+			<data>
+			RUgwMQ==
+			</data>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>EHC2 [to] EH02</string>
+			<key>Disabled</key>
+			<false/>
+			<key>Find</key>
+			<data>
+			RUhDMg==
+			</data>
+			<key>Replace</key>
+			<data>
+			RUgwMg==
+			</data>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>change HECI to IMEI</string>
+			<key>Disabled</key>
+			<false/>
+			<key>Find</key>
+			<data>
+			SEVDSQ==
+			</data>
+			<key>Replace</key>
+			<data>
+			SU1FSQ==
+			</data>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>GFX0 [to] IGPU</string>
+			<key>Disabled</key>
+			<false/>
+			<key>Find</key>
+			<data>
+			R0ZYMA==
+			</data>
+			<key>Replace</key>
+			<data>
+			SUdQVQ==
+			</data>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>PEGP [to] GFX0</string>
+			<key>Disabled</key>
+			<false/>
+			<key>Find</key>
+			<data>
+			UEVHUA==
+			</data>
+			<key>Replace</key>
+			<data>
+			R0ZYMA==
+			</data>
+		</dict>
+	</array>
+	<key>Preferences</key>
+	<dict>
+		<key>Debug</key>
+		<false/>
+		<key>Off</key>
+		<false/>
+		<key>SaveLogToFile</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

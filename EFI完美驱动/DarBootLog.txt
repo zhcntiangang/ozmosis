@@ -1,0 +1,109 @@
+ _____ _____ _____ _____ _____
+|| U ||| E ||| F ||| T ||| W ||  https://github.com/cecekpawon/UEFTW
+||___|||___|||___|||___|||___||  DarBoot (r#38 | 2018-10-10 18:58:15)
+|/___\|/___\|/___\|/___\|/___\|  On 2018-12-25 19:12:44
+
+00:100 (00:100) | Got Apple boot-args: 'uia_exclude=HS01;HS02;HS07;HS08;USR1;USR2;SSP1;SSP2 kext-dev-mode=1 dart=0 -f'
+00:100 (00:000) | BootArgsOption ('-DarBootOff'): No
+00:100 (00:000) | BootArgsOption ('-DarBootDebug'): No
+00:100 (00:000) | BootArgsOption ('-DarBootSaveLogCompress'): No
+00:100 (00:000) | BootArgsOption ('-DarBootSaveLogToFile'): No
+00:100 (00:000) | BootArgsOption ('-DarBootSaveLogToDeviceTree'): No
+00:100 (00:000) | BootArgsOption ('-DarBootSaveLogToNvram'): No
+00:100 (00:000) | Running from: MemoryMapped(0xB,0xC9143004,0xC9A77003)/FvFile(D796347F-48B9-4576-BF08-B98899A4BA45)
+00:101 (00:001) | SelfDirPath = \EFI
+00:102 (00:001) | SelfDirPath = \EFI
+00:102 (00:000) | Get Plist from: NVRAM ... Not Found
+00:102 (00:000) | Get Plist from: ESP ... Not Found
+00:102 (00:000) | Get Plist from: FV: MemoryMapped(0xB,0xC9143004,0xC9A77003)/FvFile(D796347F-48B9-4576-BF08-B98899A4BA45) ... Success
+00:103 (00:000) | Parsing plist: ... Success
+00:103 (00:000) | Preferences->Off: No
+00:103 (00:000) | Preferences->Debug: No
+00:103 (00:000) | Preferences->SaveLogCompress: No
+00:103 (00:000) | Preferences->SaveLogToFile: Yes
+00:103 (00:000) | Preferences->SaveLogToDeviceTree: No
+00:103 (00:000) | Preferences->SaveLogToNvram: No
+00:242 (00:139) | InitializeAppleBootPolicyProtocol ... Success
+00:390 (00:148) | :: ListVolumeEntry
+00:390 (00:000) | Id: 2
+00:390 (00:000) | Name: Install macOS Mojave
+00:390 (00:000) | Label: Install macOS Mojave
+00:390 (00:000) | Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x13,0x0)/HD(2,GPT,3423F5CE-776B-4917-B580-389C6EA8E51E,0x64028,0x391BFB0)
+00:390 (00:000) | BooterPath: \System\Library\CoreServices\boot.efi
+00:390 (00:000) | BooterDir: \System\Library\CoreServices
+00:390 (00:000) | BooterFile: boot.efi
+00:390 (00:000) | Blessed: 1
+00:390 (00:000) | OsVersion: 10.14
+00:390 (00:000) | OsBuildVersion: 18A391
+00:390 (00:000) | OsVersionMajor: 10
+00:390 (00:000) | OsVersionMinor: 14
+00:390 (00:000) | OsVersionRevision: 0
+00:390 (00:000) | OsType: 1
+00:390 (00:000) | PartitionType: 1
+00:390 (00:000) | PartitionTypeGUID: 48465300-0000-11AA-AA11-00306543ECAC
+00:390 (00:000) | VenMediaGUID: 00000000-0000-0000-0000-000000000000
+00:393 (00:002) | AddToBootOption: (BootNum: 0002) ... Already started
+00:393 (00:000) | ---
+00:393 (00:000) | Id: 12
+00:393 (00:000) | Name: Hackintosh OS
+00:393 (00:000) | Label: Hackintosh OS
+00:393 (00:000) | Path: PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x0,0xFFFF,0x0)/HD(2,GPT,225635A2-8676-4724-BBE1-E01C22242C45,0x64028,0xDF30B60)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,44E47A1C6EAA2D48AC85A2B5EE41C53D)
+00:393 (00:000) | BooterPath: \System\Library\CoreServices\boot.efi
+00:393 (00:000) | BooterDir: \System\Library\CoreServices
+00:393 (00:000) | BooterFile: boot.efi
+00:393 (00:000) | Blessed: 0
+00:393 (00:000) | OsVersion: 10.14
+00:393 (00:000) | OsBuildVersion: 18A391
+00:393 (00:000) | OsVersionMajor: 10
+00:393 (00:000) | OsVersionMinor: 14
+00:393 (00:000) | OsVersionRevision: 0
+00:393 (00:000) | OsType: 1
+00:393 (00:000) | PartitionType: 4
+00:393 (00:000) | PartitionTypeGUID: 900C7693-8C14-58BA-B44E-974515D27C78
+00:393 (00:000) | VenMediaGUID: 1C7AE444-AA6E-482D-AC85-A2B5EE41C53D
+00:394 (00:001) | AddToBootOption: (BootNum: 0000) ... Already started
+00:394 (00:000) | ---
+00:394 (00:000) | Id: 13
+00:394 (00:000) | Name: Recovery
+00:394 (00:000) | Label: Recovery (10.14.0)
+00:394 (00:000) | Path: PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x0,0xFFFF,0x0)/HD(2,GPT,225635A2-8676-4724-BBE1-E01C22242C45,0x64028,0xDF30B60)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,EEEA791A0BB61E41A727AE9491D3B6E3)
+00:394 (00:000) | BooterPath: \1C7AE444-AA6E-482D-AC85-A2B5EE41C53D\boot.efi
+00:394 (00:000) | BooterDir: \1C7AE444-AA6E-482D-AC85-A2B5EE41C53D
+00:394 (00:000) | BooterFile: boot.efi
+00:394 (00:000) | Blessed: 0
+00:394 (00:000) | OsVersion: 10.14
+00:394 (00:000) | OsBuildVersion: 18A391
+00:394 (00:000) | OsVersionMajor: 10
+00:394 (00:000) | OsVersionMinor: 14
+00:394 (00:000) | OsVersionRevision: 0
+00:394 (00:000) | OsType: 2
+00:394 (00:000) | PartitionType: 4
+00:394 (00:000) | PartitionTypeGUID: 900C7693-8C14-58BA-B44E-974515D27C78
+00:394 (00:000) | VenMediaGUID: 1A79EAEE-B60B-411E-A727-AE9491D3B6E3
+00:396 (00:002) | AddToBootOption: (BootNum: 0001) ... Already started
+00:396 (00:000) | ---
+00:396 (00:000) | Id: 20
+00:396 (00:000) | Name: Time Machine
+00:396 (00:000) | Label: Time Machine
+00:396 (00:000) | Path: PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x4,0xFFFF,0x0)/HD(2,GPT,9DE851C9-71C5-49D5-9D34-1A9B2219E70A,0x64028,0x574A26A0)
+00:396 (00:000) | BooterPath: \tmbootpicker.efi
+00:396 (00:000) | BooterDir: <null string>
+00:396 (00:000) | BooterFile: tmbootpicker.efi
+00:396 (00:000) | Blessed: 1
+00:396 (00:000) | OsVersion: <null string>
+00:396 (00:000) | OsBuildVersion: <null string>
+00:396 (00:000) | OsVersionMajor: 0
+00:396 (00:000) | OsVersionMinor: 0
+00:396 (00:000) | OsVersionRevision: 0
+00:396 (00:000) | OsType: 1
+00:396 (00:000) | PartitionType: 1
+00:396 (00:000) | PartitionTypeGUID: 48465300-0000-11AA-AA11-00306543ECAC
+00:396 (00:000) | VenMediaGUID: 00000000-0000-0000-0000-000000000000
+00:399 (00:003) | AddToBootOption: (BootNum: 0004) ... Already started
+00:399 (00:000) | ---
+01:907 (01:507) | ((( Ozmosis is currently running )))
+01:945 (00:038) | Found Booter (OS: 10.12 | Ver: 361.200.15)
+01:945 (00:000) | Booter Path: PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x0,0xFFFF,0x0)/HD(2,GPT,225635A2-8676-4724-BBE1-E01C22242C45,0x64028,0xDF30B60)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,44E47A1C6EAA2D48AC85A2B5EE41C53D)/\System\Library\CoreServices\boot.efi
+01:947 (00:001) | OSVersion: 10.14 | BuildVersion: 18A391
+03:046 (01:099) | Found BootArgs at 0xBEBB7000
+03:046 (00:000) | DarBoot: End

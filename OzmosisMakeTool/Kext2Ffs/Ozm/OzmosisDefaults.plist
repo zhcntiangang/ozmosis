@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Defaults:1F8E0C02-58A9-4E34-AE22-2B63745FA101</key>
+	<dict>
+		<key>AAPL,ig-platform-id</key>
+		<integer>68288516</integer>
+		<key>AndroidDiskOptionTemplate</key>
+		<string>initrd=$initfs root=UUID=$uuid androidboot.hardware=android_x86 ro SRC=$path</string>
+		<key>AndroidDiskTemplate</key>
+		<string>$label</string>
+		<key>BootEntryTemplate</key>
+		<string>$label</string>
+		<key>DarwinCoreStorageTemplate</key>
+		<string>$label</string>
+		<key>DarwinDiskTemplate</key>
+		<string>$label</string>
+		<key>DarwinRecoveryDiskTemplate</key>
+		<string>$label ($platform.$major.$minor)</string>
+		<key>DisableBootEntriesFilter</key>
+		<true/>
+		<key>DisableNvidiaInjection</key>
+		<true/>
+		<key>LinuxDiskOptionTemplate</key>
+		<string>initrd=$initfs root=UUID=$uuid ro</string>
+		<key>LinuxDiskTemplate</key>
+		<string>Linux $build</string>
+		<key>LinuxRescueDiskTemplate</key>
+		<string>$label Rescue</string>
+		<key>LinuxRescueOptionTemplate</key>
+		<string>initrd=$initramfs root=$root ro quiet</string>
+	</dict>
+	<key>Defaults:4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+	<dict>
+		<key>BaseBoardSerial</key>
+		<string>C02727609GUF2FRFB</string>
+		<key>BiosDate</key>
+		<string>12/08/2017</string>
+		<key>BiosVersion</key>
+		<string>IMP11.88Z.0064.B30.1712081714</string>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>iMacPro-Aluminum</string>
+		<key>ChassisType</key>
+		<integer>9</integer>
+		<key>EnclosureType</key>
+		<integer>10</integer>
+		<key>FirmwareFeatures</key>
+		<integer>4254070079</integer>
+		<key>FirmwareFeaturesMask</key>
+		<integer>4288675647</integer>
+		<key>FirmwareVendor</key>
+		<string>Apple Inc.</string>
+		<key>HardwareSignature</key>
+		<string>3A8FC6CD-3EF0-4070-A403-03BC1967A575</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>PlatformFeature</key>
+		<integer>65535</integer>
+		<key>ProductFamily</key>
+		<string>iMac Pro</string>
+		<key>ProductId</key>
+		<string>Mac-7BA5B2D9E42DDD94</string>
+		<key>ProductName</key>
+		<string>iMacPro1,1</string>
+		<key>SystemSerial</key>
+		<string>C02TY133HX87</string>
+		<key>SystemVersion</key>
+		<string>1.0</string>
+	</dict>
+	<key>Defaults:7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+	<dict>
+		<key>boot-args</key>
+		<string>-xcpm alcid=7 darkwake=no</string>
+		<key>csr-active-config</key>
+		<integer>1023</integer>
+	</dict>
+	<key>Timestamp</key>
+	<integer>0</integer>
+	<key>Version</key>
+	<string>1.0.1</string>
+</dict>
+</plist>

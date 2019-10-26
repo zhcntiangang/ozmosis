@@ -1,0 +1,70 @@
+ _____ _____ _____ _____ _____
+|| U ||| E ||| F ||| T ||| W ||  https://github.com/cecekpawon/UEFTW
+||___|||___|||___|||___|||___||  DarBoot (r#38 | 2018-10-10 18:58:15)
+|/___\|/___\|/___\|/___\|/___\|  On 2018-12-27 06:08:04
+
+00:100 (00:100) | Got Apple boot-args: 'dart=0 kext-dev-mode=1 -f uia_exclude=HS01;HS02;HS07;HS08;USR1;USR2;SSP1;SSP2'
+00:100 (00:000) | BootArgsOption ('-DarBootOff'): No
+00:100 (00:000) | BootArgsOption ('-DarBootDebug'): No
+00:100 (00:000) | BootArgsOption ('-DarBootSaveLogCompress'): No
+00:100 (00:000) | BootArgsOption ('-DarBootSaveLogToFile'): No
+00:100 (00:000) | BootArgsOption ('-DarBootSaveLogToDeviceTree'): No
+00:100 (00:000) | BootArgsOption ('-DarBootSaveLogToNvram'): No
+00:100 (00:000) | Running from: MemoryMapped(0xB,0xC32D7004,0xC3C0B003)/FvFile(D796347F-48B9-4576-BF08-B98899A4BA45)
+00:100 (00:000) | SelfDirPath = \EFI
+00:103 (00:003) | Get Plist from: NVRAM ... Not Found
+00:104 (00:000) | Get Plist from: ESP ... Not Found
+00:104 (00:000) | Get Plist from: FV: MemoryMapped(0xB,0xC32D7004,0xC3C0B003)/FvFile(D796347F-48B9-4576-BF08-B98899A4BA45) ... Success
+00:104 (00:000) | Parsing plist: ... Success
+00:104 (00:000) | Preferences->Off: No
+00:104 (00:000) | Preferences->Debug: No
+00:104 (00:000) | Preferences->SaveLogCompress: No
+00:104 (00:000) | Preferences->SaveLogToFile: Yes
+00:104 (00:000) | Preferences->SaveLogToDeviceTree: No
+00:104 (00:000) | Preferences->SaveLogToNvram: No
+00:105 (00:001) | InitializeAppleBootPolicyProtocol ... Success
+00:175 (00:070) | :: ListVolumeEntry
+00:175 (00:000) | Id: 4
+00:175 (00:000) | Name: macOS Mojave
+00:175 (00:000) | Label: macOS Mojave
+00:175 (00:000) | Path: PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x0,0xFFFF,0x0)/HD(2,GPT,225635A2-8676-4724-BBE1-E01C22242C45,0x64028,0xDF30B60)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,44E47A1C6EAA2D48AC85A2B5EE41C53D)
+00:175 (00:000) | BooterPath: \System\Library\CoreServices\boot.efi
+00:175 (00:000) | BooterDir: \System\Library\CoreServices
+00:175 (00:000) | BooterFile: boot.efi
+00:175 (00:000) | Blessed: 0
+00:175 (00:000) | OsVersion: 10.14.2
+00:175 (00:000) | OsBuildVersion: 18C54
+00:175 (00:000) | OsVersionMajor: 10
+00:175 (00:000) | OsVersionMinor: 14
+00:175 (00:000) | OsVersionRevision: 2
+00:175 (00:000) | OsType: 1
+00:175 (00:000) | PartitionType: 4
+00:175 (00:000) | PartitionTypeGUID: 900C7693-8C14-58BA-B44E-974515D27C78
+00:175 (00:000) | VenMediaGUID: 1C7AE444-AA6E-482D-AC85-A2B5EE41C53D
+00:177 (00:001) | AddToBootOption: (BootNum: 0000) ... Already started
+00:177 (00:000) | ---
+00:177 (00:000) | Id: 5
+00:177 (00:000) | Name: Recovery
+00:177 (00:000) | Label: Recovery (10.14.2)
+00:177 (00:000) | Path: PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x0,0xFFFF,0x0)/HD(2,GPT,225635A2-8676-4724-BBE1-E01C22242C45,0x64028,0xDF30B60)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,EEEA791A0BB61E41A727AE9491D3B6E3)
+00:177 (00:000) | BooterPath: \1C7AE444-AA6E-482D-AC85-A2B5EE41C53D\boot.efi
+00:177 (00:000) | BooterDir: \1C7AE444-AA6E-482D-AC85-A2B5EE41C53D
+00:177 (00:000) | BooterFile: boot.efi
+00:177 (00:000) | Blessed: 0
+00:177 (00:000) | OsVersion: 10.14.2
+00:177 (00:000) | OsBuildVersion: 18C54
+00:177 (00:000) | OsVersionMajor: 10
+00:177 (00:000) | OsVersionMinor: 14
+00:177 (00:000) | OsVersionRevision: 2
+00:177 (00:000) | OsType: 2
+00:177 (00:000) | PartitionType: 4
+00:177 (00:000) | PartitionTypeGUID: 900C7693-8C14-58BA-B44E-974515D27C78
+00:177 (00:000) | VenMediaGUID: 1A79EAEE-B60B-411E-A727-AE9491D3B6E3
+00:178 (00:001) | AddToBootOption: (BootNum: 0001) ... Already started
+00:178 (00:000) | ---
+15:618 (15:440) | ((( Ozmosis is currently running )))
+15:682 (00:064) | Found Booter (OS: 10.12 | Ver: 361.220.1)
+15:682 (00:000) | Booter Path: PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x0,0xFFFF,0x0)/HD(2,GPT,225635A2-8676-4724-BBE1-E01C22242C45,0x64028,0xDF30B60)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,44E47A1C6EAA2D48AC85A2B5EE41C53D)/\System\Library\CoreServices\boot.efi
+15:684 (00:001) | OSVersion: 10.14.2 | BuildVersion: 18C54
+16:697 (01:013) | Found BootArgs at 0xCE778000
+16:697 (00:000) | DarBoot: End

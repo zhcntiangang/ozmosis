@@ -1,0 +1,53 @@
+; File generated automatically from ./dlls/atl/atl.spec; do not edit!
+
+LIBRARY atl.dll
+
+EXPORTS
+  DllCanUnloadNow@0 @1 PRIVATE
+  DllGetClassObject@12 @2 PRIVATE
+  DllRegisterServer@0 @3 PRIVATE
+  DllUnregisterServer@0 @4 PRIVATE
+  AtlAdvise@16=atl100.AtlAdvise @10
+  AtlUnadvise@12=atl100.AtlUnadvise @11
+  AtlFreeMarshalStream@4=atl100.AtlFreeMarshalStream @12
+  AtlMarshalPtrInProc@12=atl100.AtlMarshalPtrInProc @13
+  AtlUnmarshalPtr@12=atl100.AtlUnmarshalPtr @14
+  AtlModuleGetClassObject@16 @15
+  AtlModuleInit@12 @16
+  AtlModuleRegisterClassObjects@12 @17
+  AtlModuleRegisterServer@12 @18
+  AtlModuleRegisterTypeLib@8 @19
+  AtlModuleRevokeClassObjects@4 @20
+  AtlModuleTerm@4 @21
+  AtlModuleUnregisterServer@8 @22
+  AtlModuleUpdateRegistryFromResourceD@20 @23
+  AtlWaitWithMessageLoop@4=atl100.AtlWaitWithMessageLoop @24
+  AtlCreateTargetDC@8=atl100.AtlCreateTargetDC @26
+  AtlHiMetricToPixel@8=atl100.AtlHiMetricToPixel @27
+  AtlPixelToHiMetric@8=atl100.AtlPixelToHiMetric @28
+  AtlComPtrAssign@8=atl100.AtlComPtrAssign @30
+  AtlComQIPtrAssign@12=atl100.AtlComQIPtrAssign @31
+  AtlInternalQueryInterface@16=atl100.AtlInternalQueryInterface @32
+  AtlGetVersion@4 @34
+  AtlAxDialogBoxW@20=atl100.AtlAxDialogBoxW @35
+  AtlAxDialogBoxA@20=atl100.AtlAxDialogBoxA @36
+  AtlAxCreateDialogW@20=atl100.AtlAxCreateDialogW @37
+  AtlAxCreateDialogA@20=atl100.AtlAxCreateDialogA @38
+  AtlAxCreateControl@16=atl100.AtlAxCreateControl @39
+  AtlAxCreateControlEx@28=atl100.AtlAxCreateControlEx @40
+  AtlAxAttachControl@12=atl100.AtlAxAttachControl @41
+  AtlAxWinInit@0 @42
+  AtlModuleAddCreateWndData@12 @43
+  AtlModuleExtractCreateWndData@4 @44
+  AtlModuleRegisterWndClassInfoW@12 @45
+  AtlModuleRegisterWndClassInfoA@12 @46
+  AtlAxGetControl@8=atl100.AtlAxGetControl @47
+  AtlAxGetHost@8=atl100.AtlAxGetHost @48
+  AtlRegisterClassCategoriesHelper@12=atl100.AtlRegisterClassCategoriesHelper @49
+  AtlIPersistStreamInit_Load@16=atl100.AtlIPersistStreamInit_Load @50
+  AtlIPersistStreamInit_Save@20=atl100.AtlIPersistStreamInit_Save @51
+  AtlIPersistPropertyBag_Load@20=atl100.AtlIPersistPropertyBag_Load @52
+  AtlGetObjectSourceInterface@20=atl100.AtlGetObjectSourceInterface @54
+  AtlModuleLoadTypeLib@16 @56
+  AtlModuleUnregisterServerEx@12 @57
+  AtlModuleAddTermFunc@12 @58
