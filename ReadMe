@@ -7,6 +7,8 @@
 
 
 	->Temp 临时文件存放位置
+	
+	->ShareFiles 包含共用的配置  机型文件 oz核心文件等不变的文件
 
 
 	->BiosFile bios存放位置、对应efi文件位置
@@ -14,8 +16,6 @@
 		->MainBoardBiosProfiles bios配置 其中包含 windows 与 mac
 
 		->主板型号
-
-			->ShareFiles 包含共用的配置  机型文件 oz核心文件等不变的文件
 
 			->官方bios
 
