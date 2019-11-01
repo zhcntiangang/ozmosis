@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BootMenu</key>
+	<false/>
+	<key>DarwinDiskTemplate</key>
+	<string>$version</string>
+	<key>DarwinInstallerDiskTemplate</key>
+	<string>$label</string>
+	<key>DarwinRecoveryDiskTemplate</key>
+	<string>$label ($major.$minor.$revision)</string>
+	<key>DeleteEntries</key>
+	<array/>
+	<key>DeleteInvalidPath</key>
+	<true/>
+	<key>HideEntries</key>
+	<array>
+		<string>Preboot</string>
+	</array>
+	<key>Preferences</key>
+	<dict>
+		<key>Debug</key>
+		<false/>
+		<key>Off</key>
+		<false/>
+		<key>SaveLogToDeviceTree</key>
+		<false/>
+		<key>SaveLogToFile</key>
+		<false/>
+		<key>SaveLogToNvram</key>
+		<false/>
+	</dict>
+	<key>Timeout</key>
+	<integer>0</integer>
+</dict>
+</plist>
